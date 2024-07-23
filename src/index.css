@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: hsl(218, 23%, 16%);
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+}
+
+.adviceHead{
+    color: hsl(150, 100%, 66%);
+}
+
+.buttonDiv{
+    background-color: hsl(150, 100%, 66%);
+}
+
+.buttonDiv:hover{
+    background-color: rgb(226, 255, 182);
+}
+
+.adviceText{
+    color: hsl(193, 38%, 86%);
+}
+
+.card{
+    background-color: hsl(217, 19%, 24%)
+}
