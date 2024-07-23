@@ -18,8 +18,8 @@ function App() {
   // console.log(slip);
 
   return (
-    <div className=" min-h-screen flex items-center justify-center ">
-      <div className="card flex flex-col text-center relative p-6 max-w-[400px] rounded-lg max-h-[400px]">
+    <div className="min-h-screen flex items-center justify-center ">
+      <div className="card flex flex-col text-center relative p-6 sm:max-w-[400px] max-w-[90%] rounded-lg max-h-[400px]">
         <p className="adviceHead py-2 mb-2">ADVICE #{slip.id}</p>
         <p className="adviceText text-2xl">{`"${slip.advice}"`}</p>
 
